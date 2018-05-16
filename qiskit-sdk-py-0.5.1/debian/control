@@ -1,15 +1,19 @@
 Source: qiskit-sdk-py
-Section: unknown
+Section: devel
 Priority: optional
 Maintainer: Enrique de la Torre <indisoluble_dev@me.com>
-Build-Depends: debhelper (>=9)
+Build-Depends: debhelper (>=9), libblas-dev, liblapack-dev
 Standards-Version: 3.9.6
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://anonscm.debian.org/collab-maint/qiskit-sdk-py.git
-#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/qiskit-sdk-py.git
+Homepage: https://qiskit.org/
+Vcs-Git: git@github.com:QISKit/qiskit-sdk-py.git
+Vcs-Browser: https://github.com/QISKit/qiskit-sdk-py.git
 
-Package: qiskit-sdk-py
+Package: qasm-simulator-cpp
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: A C++ quantum circuit simulator with realistic noise
+ QASM Simulator is a quantum circuit simulator written in C++
+ that includes a variety of realistic circuit level noise models.
+ The simulator may be run as a command line application to
+ evaluate quantum programs specified by a Quantum program OBJect
+ (QObj).
