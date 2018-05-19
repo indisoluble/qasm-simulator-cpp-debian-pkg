@@ -3,14 +3,14 @@ Section: devel
 Priority: optional
 Maintainer: Enrique de la Torre <indisoluble_dev@me.com>
 Build-Depends: debhelper (>=9), libblas-dev, liblapack-dev
-Standards-Version: 3.9.6
+Standards-Version: 3.9.7
 Homepage: https://qiskit.org/
 
 Package: qasm-simulator-cpp
 Architecture: any
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: A C++ quantum circuit simulator with realistic noise
+Description: C++ quantum circuit simulator with realistic noise
  QASM Simulator is a quantum circuit simulator written in C++
  that includes a variety of realistic circuit level noise models.
  The simulator may be run as a command line application to
