@@ -1,0 +1,856 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: qiskit-sdk-py
+Source: <url://example.com>
+
+Files:     .travis.yml
+           Makefile
+           appveyor.yml
+           examples/python/basic_optimize.py
+           examples/python/ghz.py
+           examples/python/initialize.py
+           examples/python/qft.py
+           examples/python/rippleadd-async.py
+           examples/python/rippleadd.py
+           examples/python/sympy_backends.py
+           examples/python/teleport.py
+           examples/python/using_qiskit_core_level_0.py
+           examples/python/using_qiskit_core_level_1.py
+           qiskit/__init__.py
+           qiskit/_classicalregister.py
+           qiskit/_compiler.py
+           qiskit/_compositegate.py
+           qiskit/_gate.py
+           qiskit/_instruction.py
+           qiskit/_instructionset.py
+           qiskit/_logging.py
+           qiskit/_measure.py
+           qiskit/_openquantumcompiler.py
+           qiskit/_qiskiterror.py
+           qiskit/_quantumcircuit.py
+           qiskit/_quantumjob.py
+           qiskit/_quantumprogram.py
+           qiskit/_quantumregister.py
+           qiskit/_register.py
+           qiskit/_reset.py
+           qiskit/_result.py
+           qiskit/_resulterror.py
+           qiskit/_util.py
+           qiskit/backends/__init__.py
+           qiskit/backends/basebackend.py
+           qiskit/backends/basejob.py
+           qiskit/backends/baseprovider.py
+           qiskit/backends/ibmq/__init__.py
+           qiskit/backends/ibmq/ibmqbackend.py
+           qiskit/backends/ibmq/ibmqjob.py
+           qiskit/backends/ibmq/ibmqprovider.py
+           qiskit/backends/local/__init__.py
+           qiskit/backends/local/_simulatorerror.py
+           qiskit/backends/local/_simulatortools.py
+           qiskit/backends/local/localjob.py
+           qiskit/backends/local/localprovider.py
+           qiskit/backends/local/qasm_simulator_cpp.py
+           qiskit/backends/local/qasm_simulator_projectq.py
+           qiskit/backends/local/qasm_simulator_py.py
+           qiskit/backends/local/statevector_simulator_cpp.py
+           qiskit/backends/local/statevector_simulator_py.py
+           qiskit/backends/local/statevector_simulator_sympy.py
+           qiskit/backends/local/unitary_simulator_py.py
+           qiskit/backends/local/unitary_simulator_sympy.py
+           qiskit/dagcircuit/__init__.py
+           qiskit/dagcircuit/_dagcircuit.py
+           qiskit/dagcircuit/_dagcircuiterror.py
+           qiskit/extensions/__init__.py
+           qiskit/extensions/_extensionerror.py
+           qiskit/extensions/quantum_initializer/__init__.py
+           qiskit/extensions/quantum_initializer/_initializer.py
+           qiskit/extensions/simulator/__init__.py
+           qiskit/extensions/simulator/load.py
+           qiskit/extensions/simulator/noise.py
+           qiskit/extensions/simulator/save.py
+           qiskit/extensions/simulator/snapshot.py
+           qiskit/extensions/simulator/wait.py
+           qiskit/extensions/standard/__init__.py
+           qiskit/extensions/standard/barrier.py
+           qiskit/extensions/standard/ccx.py
+           qiskit/extensions/standard/ch.py
+           qiskit/extensions/standard/crz.py
+           qiskit/extensions/standard/cswap.py
+           qiskit/extensions/standard/cu1.py
+           qiskit/extensions/standard/cu3.py
+           qiskit/extensions/standard/cx.py
+           qiskit/extensions/standard/cxbase.py
+           qiskit/extensions/standard/cy.py
+           qiskit/extensions/standard/cz.py
+           qiskit/extensions/standard/gatestools.py
+           qiskit/extensions/standard/h.py
+           qiskit/extensions/standard/header.py
+           qiskit/extensions/standard/iden.py
+           qiskit/extensions/standard/rx.py
+           qiskit/extensions/standard/ry.py
+           qiskit/extensions/standard/rz.py
+           qiskit/extensions/standard/rzz.py
+           qiskit/extensions/standard/s.py
+           qiskit/extensions/standard/swap.py
+           qiskit/extensions/standard/t.py
+           qiskit/extensions/standard/u0.py
+           qiskit/extensions/standard/u1.py
+           qiskit/extensions/standard/u2.py
+           qiskit/extensions/standard/u3.py
+           qiskit/extensions/standard/ubase.py
+           qiskit/extensions/standard/x.py
+           qiskit/extensions/standard/y.py
+           qiskit/extensions/standard/z.py
+           qiskit/mapper/__init__.py
+           qiskit/mapper/_compiling.py
+           qiskit/mapper/_coupling.py
+           qiskit/mapper/_couplingerror.py
+           qiskit/mapper/_mappererror.py
+           qiskit/mapper/_mapping.py
+           qiskit/qasm/__init__.py
+           qiskit/qasm/_node/__init__.py
+           qiskit/qasm/_node/_barrier.py
+           qiskit/qasm/_node/_binaryop.py
+           qiskit/qasm/_node/_binaryoperator.py
+           qiskit/qasm/_node/_cnot.py
+           qiskit/qasm/_node/_creg.py
+           qiskit/qasm/_node/_customunitary.py
+           qiskit/qasm/_node/_expressionlist.py
+           qiskit/qasm/_node/_external.py
+           qiskit/qasm/_node/_format.py
+           qiskit/qasm/_node/_gate.py
+           qiskit/qasm/_node/_gatebody.py
+           qiskit/qasm/_node/_id.py
+           qiskit/qasm/_node/_idlist.py
+           qiskit/qasm/_node/_if.py
+           qiskit/qasm/_node/_indexedid.py
+           qiskit/qasm/_node/_intnode.py
+           qiskit/qasm/_node/_measure.py
+           qiskit/qasm/_node/_node.py
+           qiskit/qasm/_node/_nodeexception.py
+           qiskit/qasm/_node/_opaque.py
+           qiskit/qasm/_node/_prefix.py
+           qiskit/qasm/_node/_primarylist.py
+           qiskit/qasm/_node/_program.py
+           qiskit/qasm/_node/_qreg.py
+           qiskit/qasm/_node/_real.py
+           qiskit/qasm/_node/_reset.py
+           qiskit/qasm/_node/_unaryoperator.py
+           qiskit/qasm/_node/_universalunitary.py
+           qiskit/qasm/_qasm.py
+           qiskit/qasm/_qasmerror.py
+           qiskit/qasm/_qasmlexer.py
+           qiskit/qasm/_qasmparser.py
+           qiskit/tools/apps/fermion.py
+           qiskit/tools/apps/optimization.py
+           qiskit/tools/file_io.py
+           qiskit/tools/qcvv/fitters.py
+           qiskit/tools/qcvv/tomography.py
+           qiskit/tools/qi/pauli.py
+           qiskit/tools/qi/qi.py
+           qiskit/tools/visualization.py
+           qiskit/unroll/__init__.py
+           qiskit/unroll/_backenderror.py
+           qiskit/unroll/_circuitbackend.py
+           qiskit/unroll/_dagbackend.py
+           qiskit/unroll/_dagunroller.py
+           qiskit/unroll/_jsonbackend.py
+           qiskit/unroll/_printerbackend.py
+           qiskit/unroll/_unroller.py
+           qiskit/unroll/_unrollerbackend.py
+           qiskit/unroll/_unrollererror.py
+           qiskit/wrapper/__init__.py
+           qiskit/wrapper/_wrapper.py
+           qiskit/wrapper/defaultqiskitprovider.py
+           setup.py.in
+           src/qasm-simulator-cpp/src/backends/base_backend.hpp
+           src/qasm-simulator-cpp/src/backends/clifford_backend.hpp
+           src/qasm-simulator-cpp/src/backends/ideal_backend.hpp
+           src/qasm-simulator-cpp/src/backends/noise_models.hpp
+           src/qasm-simulator-cpp/src/backends/qubit_backend.hpp
+           src/qasm-simulator-cpp/src/backends/rng_engine.hpp
+           src/qasm-simulator-cpp/src/engines/base_engine.hpp
+           src/qasm-simulator-cpp/src/engines/vector_engine.hpp
+           src/qasm-simulator-cpp/src/utilities/qubit_vector.hpp
+           src/qasm-simulator-cpp/src/utilities/tensor_index.hpp
+           test/__init__.py
+           test/performance/state_tomography.py
+           test/performance/vqe.py
+           test/python/__init__.py
+           test/python/_dummybackend.py
+           test/python/_random_circuit_generator.py
+           test/python/_random_qasm_generator.py
+           test/python/common.py
+           test/python/test_api_ibmq.py
+           test/python/test_apps.py
+           test/python/test_backends.py
+           test/python/test_compiler.py
+           test/python/test_dagcircuit.py
+           test/python/test_extensions_simulator.py
+           test/python/test_extensions_standard.py
+           test/python/test_ibmqjob.py
+           test/python/test_identifiers.py
+           test/python/test_initializer.py
+           test/python/test_jsonoutput.py
+           test/python/test_localjob.py
+           test/python/test_mapper.py
+           test/python/test_qasm_parser.py
+           test/python/test_qasm_simulator_cpp.py
+           test/python/test_qasm_simulator_projectq.py
+           test/python/test_qasm_simulator_py.py
+           test/python/test_qi.py
+           test/python/test_quantumprogram.py
+           test/python/test_reordering.py
+           test/python/test_simulator_interfaces.py
+           test/python/test_skip_translation.py
+           test/python/test_statevector_simulator_sympy.py
+           test/python/test_tomography.py
+           test/python/test_unitary_simulator_py.py
+           test/python/test_unitary_simulator_sympy.py
+           test/python/test_unroller.py
+           test/python/test_util.py
+           test/python/test_visualization.py
+           test/schemas/check_schemas.py
+           tools/ghpages_documentation_deploy.sh
+           tools/random_qasm_generator.py
+Copyright: 2017-2018 IBM Corporation.
+           2017-2018 IBM RESEARCH.
+           __NO_COPYRIGHT__
+License:   Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ On Debian systems, the complete text of the Apache License Version 2.0
+  can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+Files:     .gitignore
+           .pylintrc
+           CHANGELOG.rst
+           CMakeLists.txt
+           CODEOWNERS
+           CODE_OF_CONDUCT.md
+           CONTRIBUTING.rst
+           CONTRIBUTORS.md
+           DEVELOPMENT_CYCLE.md
+           MANIFEST.in
+           Qconfig.py.default
+           README.md
+           cmake/code-qa.cmake
+           cmake/defaults.cmake
+           cmake/python-build.cmake
+           cmake/tests.cmake
+           cmake/toolchain-utils.cmake
+           debian/qasm-simulator-cpp.debhelper.log
+           doc/Makefile
+           doc/_templates/autosummary/class.rst
+           doc/_templates/better-apidoc/module.rst
+           doc/_templates/better-apidoc/package.rst
+           doc/conf.py
+           doc/dev_introduction.rst
+           doc/example_real_backend.rst
+           doc/index.rst
+           doc/install.rst
+           doc/ja/conf.py
+           doc/ja/dev_introduction.rst
+           doc/ja/example_real_backend.rst
+           doc/ja/index.rst
+           doc/ja/install.rst
+           doc/ja/qiskit.rst
+           doc/ja/quickstart.rst
+           doc/ko/README.md
+           doc/make.bat
+           doc/qiskit.rst
+           doc/quickstart.rst
+           doc/releases.rst
+           doc/theme/layout.html
+           doc/theme/static/bizstyle.css_t
+           doc/theme/static/bizstyle.js_t
+           doc/theme/theme.conf
+           doc/zh/README.md
+           examples/python/hello_quantum.py
+           examples/qasm/entangled_registers.qasm
+           examples/qasm/plaquette_check.qasm
+           examples/qasm/simple.qasm
+           pypi.sh
+           qiskit/qasm/libs/qelib1.inc
+           qiskit/schemas/backend_config_schema.json
+           qiskit/schemas/backend_props_schema.json
+           qiskit/schemas/backend_status_schema.json
+           qiskit/schemas/default_pulse_config_schema.json
+           qiskit/schemas/deprecated/backends/backend_calibration_example.json
+           qiskit/schemas/deprecated/backends/backend_calibration_schema.json
+           qiskit/schemas/deprecated/backends/backend_configuration_example_old.json
+           qiskit/schemas/deprecated/backends/backend_configuration_schema_old_py.json
+           qiskit/schemas/deprecated/backends/backend_parameters_example.json
+           qiskit/schemas/deprecated/backends/backend_parameters_schema.json
+           qiskit/schemas/deprecated/backends/backend_status_example.json
+           qiskit/schemas/deprecated/backends/backend_status_schema_py.json
+           qiskit/schemas/deprecated/qobj/qobj_core_schema.json
+           qiskit/schemas/deprecated/qobj/qobj_example.json
+           qiskit/schemas/deprecated/qobj/qobj_generic_schema.json
+           qiskit/schemas/deprecated/result/result_example.json
+           qiskit/schemas/deprecated/result/result_schema.json
+           qiskit/schemas/examples/backend_config_example_openpulse.json
+           qiskit/schemas/examples/backend_config_example_openqasm.json
+           qiskit/schemas/examples/backend_props_example.json
+           qiskit/schemas/examples/backend_status_example.json
+           qiskit/schemas/examples/default_pulse_config_example.json
+           qiskit/schemas/examples/job_status_example.json
+           qiskit/schemas/examples/qobj_example_openpulse.json
+           qiskit/schemas/examples/qobj_example_openqasm.json
+           qiskit/schemas/examples/result_example_openpulse_lev0.json
+           qiskit/schemas/examples/result_example_openpulse_lev1.json
+           qiskit/schemas/examples/result_example_openqasm.json
+           qiskit/schemas/examples/result_example_snapshots.json
+           qiskit/schemas/examples/result_example_statevector_simulator.json
+           qiskit/schemas/examples/result_example_unitary_simulator.json
+           qiskit/schemas/job_status_schema.json
+           qiskit/schemas/qobj_schema.json
+           qiskit/schemas/result_schema.json
+           qiskit/tools/__init__.py
+           qiskit/tools/apps/__init__.py
+           qiskit/tools/qcvv/__init__.py
+           qiskit/tools/qi/__init__.py
+           requirements-dev.txt
+           requirements.txt
+           src/qasm-simulator-cpp/CMakeLists.txt
+           src/qasm-simulator-cpp/Makefile
+           src/qasm-simulator-cpp/README.md
+           src/qasm-simulator-cpp/build_dependencies.sh
+           src/qasm-simulator-cpp/src/Makefile
+           src/qasm-simulator-cpp/test/CMakeLists.txt
+           src/qasm-simulator-cpp/test/Makefile
+           src/qasm-simulator-cpp/test/test_qubit_vector.cpp
+           test/performance/H2/H2Equilibrium.txt
+           test/performance/LiH/LiHEquilibrium.txt
+           test/python/example_unitary_matrix.dat
+           test/python/qasm/example.qasm
+           test/python/qasm/example_fail.qasm
+           test/python/qasm/example_if.qasm
+           test/python/qasm/issue172_binary.qasm
+           test/python/qasm/issue172_extern.qasm
+           test/python/qasm/issue172_unary.qasm
+           test/python/qasm/math_domain_error.qasm
+           test/python/qasm/overoptimization.qasm
+           test/python/qasm/random_n5_d5.qasm
+           test/python/qasm/simple.qasm
+           test/python/qobj/cpp_conditionals.json
+           test/python/qobj/cpp_measure_opt.json
+           test/python/qobj/cpp_measure_opt_flag.json
+           test/python/qobj/cpp_reset.json
+           test/python/qobj/cpp_save_load.json
+           test/python/qobj/cpp_single_qubit_gates.json
+           test/python/qobj/cpp_two_qubit_gates.json
+           test/python/test_load.json
+Copyright: 2017 IBM Corporation.
+           Copyright 2011 by Sphinx-users.jp, see AUTHORS. :license: MIT, see LICENSE for details.
+           Copyright 2012 by Sphinx-users.jp, see AUTHORS. :license: MIT, see LICENSE for details.
+           __NO_COPYRIGHT_NOR_LICENSE__
+License:   __UNKNOWN__
+
+Files:     src/qasm-simulator-cpp/src/utilities/binary_vector.hpp
+Copyright: 2017 IBM Corporation.
+License:   Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ .
+ .
+ @file    BinaryVector.hpp
+ @brief   BinaryVector class
+ @author  Sergey Bravyi <sbravyi@us.ibm.com>
+ .
+ On Debian systems, the complete text of the Apache License Version 2.0
+  can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+Files:     src/qasm-simulator-cpp/src/utilities/circuit.hpp
+Copyright: 2017 IBM Corporation.
+License:   Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ .
+ .
+ @file    circuit.hpp
+ @brief   Compiled circuit data structure for SimBackends
+ @author  Christopher J. Wood <cjwood@us.ibm.com>
+ .
+ On Debian systems, the complete text of the Apache License Version 2.0
+  can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+Files:     src/qasm-simulator-cpp/src/utilities/misc.hpp
+Copyright: 2017 IBM Corporation.
+License:   Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ .
+ .
+ @file    misc.h
+ @brief   miscellaneous functions
+ @author  Christopher J. Wood <cjwood@us.ibm.com>
+ .
+ On Debian systems, the complete text of the Apache License Version 2.0
+  can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+Files:     src/qasm-simulator-cpp/src/simulator.hpp
+Copyright: 2017 IBM Corporation.
+License:   Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ .
+ .
+ @file    simulator.hpp
+ @brief   Simulator class
+ @author  Christopher J. Wood <cjwood@us.ibm.com>
+ .
+ On Debian systems, the complete text of the Apache License Version 2.0
+  can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+Files:     src/qasm-simulator-cpp/src/utilities/types.hpp
+Copyright: 2017 IBM Corporation.
+License:   Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ .
+ .
+ @file    types.h
+ @brief   miscellaneous functions
+ @author  Christopher J. Wood <cjwood@us.ibm.com>
+ .
+ On Debian systems, the complete text of the Apache License Version 2.0
+  can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+Files:     src/qasm-simulator-cpp/src/utilities/matrix.hpp
+Copyright: 2017 IBM Corporation.
+License:   Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ .
+ .
+ @file    matrix.h
+ @brief   C++ BLAS matrix library
+ @author  Jay Gambetta <jay.gambetta@us.ibm.com>
+ .
+ .
+ .
+ Dependences: BLAS
+ Brief Discription: This is my Matrix class. It works only with real/complex
+ matrices and stores the entries in  column-major-order. In column-major storage
+ the columns are stored one after the other. The linear offset p from the
+ beginning of the array to any given element A(i,j) can then be computed as:
+ .
+ On Debian systems, the complete text of the Apache License Version 2.0
+  can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+Files:     src/qasm-simulator-cpp/src/utilities/clifford.hpp
+Copyright: 2017 IBM Corporation.
+License:   Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ .
+ .
+ @file    Clifford.hpp
+ @brief   Clifford class
+ @author  Sergey Bravyi <sbravyi@us.ibm.com>
+ .
+ On Debian systems, the complete text of the Apache License Version 2.0
+  can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+Files:     src/qasm-simulator-cpp/src/main.cpp
+Copyright: 2017 IBM Corporation.
+License:   Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ .
+ .
+ @file main.cpp
+ @brief QISKIT Simulator
+ @author Christopher J. Wood <cjwood@us.ibm.com>
+ .
+ On Debian systems, the complete text of the Apache License Version 2.0
+  can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+Files:     src/qasm-simulator-cpp/src/third-party/headers/json.hpp
+Copyright: __NO_COPYRIGHT__
+License:   __UNKNOWN__
+ Licensed under the MIT License <http://opensource.org/licenses/MIT>.
+ Copyright (c) 2013-2018 Niels Lohmann <http://nlohmann.me>.
+ .
+ Permission is hereby  granted, free of charge, to any  person obtaining a copy
+ of this software and associated  documentation files (the "Software"), to deal
+ in the Software  without restriction, including without  limitation the rights
+ to  use, copy,  modify, merge,  publish, distribute,  sublicense, and/or  sell
+ copies  of  the Software,  and  to  permit persons  to  whom  the Software  is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ .
+ THE SOFTWARE  IS PROVIDED "AS  IS", WITHOUT WARRANTY  OF ANY KIND,  EXPRESS OR
+ IMPLIED,  INCLUDING BUT  NOT  LIMITED TO  THE  WARRANTIES OF  MERCHANTABILITY,
+ FITNESS FOR  A PARTICULAR PURPOSE AND  NONINFRINGEMENT. IN NO EVENT  SHALL THE
+
+Files:     Make.bat
+Copyright: 2017 IBM RESEARCH.  :: :: Licensed under the Apache License, Version 2.0 (the "License"); :: you may not use this file except in compliance with the License. :: You may obtain a copy of the License at :: ::     http://www.apache.org/licenses/LICENSE-2.0 :: :: Unless required by applicable law or agreed to in writing, software
+License:   __UNKNOWN__
+ :: distributed under the License is distributed on an "AS IS" BASIS,
+ :: WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ :: See the License for the specific language governing permissions and
+ :: limitations under the License.
+
+Files:     doc/theme/static/bootstrap.min.js
+Copyright: 2011-2017 Twitter, Inc.
+License:   __UNKNOWN__
+ Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ .
+ .
+ !
+
+Files:     src/qasm-simulator-cpp/src/third-party/headers/LICENSE-json.MIT
+Copyright: 2013-2018 Niels Lohmann
+License:   __UNKNOWN__
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+
+#----------------------------------------------------------------------------
+# xml and html files (skipped):
+#         images/unroller_backends.svg
+#         images/circuit_representations.svg
+#         .github/ISSUE_TEMPLATE.md
+#         .github/PULL_REQUEST_TEMPLATE.md
+
+#----------------------------------------------------------------------------
+# binary files (skipped):
+#         doc/theme/static/background_b01.png
+#         doc/theme/static/qiskit-logo.gif
+#         doc/theme/static/qiskit-logo-white.gif
+#         doc/theme/static/qiskit-logo-white-no-margin.gif
+#         doc/theme/static/background_r12.png
+#         doc/theme/static/qiskit-logo-no-margin.gif
+#         doc/theme/static/favicon.ico
+#         src/qasm-simulator-cpp/src/third-party/win64/lib/libblas.lib
+#         src/qasm-simulator-cpp/src/third-party/win64/lib/liblapack.lib
+#         src/qasm-simulator-cpp/src/third-party/win64/lib/liblapacke.lib
+#         src/qasm-simulator-cpp/src/third-party/win64/dll/libgfortran_64-3.dll
+#         src/qasm-simulator-cpp/src/third-party/win64/dll/libgomp-1.dll
+#         src/qasm-simulator-cpp/src/third-party/win64/dll/libquadmath_64-0.dll
+#         src/qasm-simulator-cpp/src/third-party/win64/dll/libwinpthread-1.dll
+#         src/qasm-simulator-cpp/src/third-party/win64/dll/libblas.dll
+#         src/qasm-simulator-cpp/src/third-party/win64/dll/liblapack.dll
+#         src/qasm-simulator-cpp/src/third-party/win64/dll/libgcc_s_sjlj-1.dll
+#         src/qasm-simulator-cpp/src/third-party/win32/lib/libblas.lib
+#         src/qasm-simulator-cpp/src/third-party/win32/lib/liblapack.lib
+#         src/qasm-simulator-cpp/src/third-party/win32/lib/liblapacke.lib
+#         src/qasm-simulator-cpp/test/test_qubit_vector
+#         images/QISKit-c.gif
+#         images/qiskit-logo.gif
+#         images/unroller_backends.png
+#         images/QISKit.gif
+#         images/circuit_representations.png
+#         out/src/qasm-simulator-cpp/main.o
+#         out/src/qasm-simulator-cpp/qasm_simulator_cpp
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.
+
+#----------------------------------------------------------------------------
+# License file: LICENSE
+                                  Apache License
+                            Version 2.0, January 2004
+                         http://www.apache.org/licenses/
+ .
+    TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+ .
+    1. Definitions.
+ .
+       "License" shall mean the terms and conditions for use, reproduction,
+       and distribution as defined by Sections 1 through 9 of this document.
+ .
+       "Licensor" shall mean the copyright owner or entity authorized by
+       the copyright owner that is granting the License.
+ .
+       "Legal Entity" shall mean the union of the acting entity and all
+       other entities that control, are controlled by, or are under common
+       control with that entity. For the purposes of this definition,
+       "control" means (i) the power, direct or indirect, to cause the
+       direction or management of such entity, whether by contract or
+       otherwise, or (ii) ownership of fifty percent (50%) or more of the
+       outstanding shares, or (iii) beneficial ownership of such entity.
+ .
+       "You" (or "Your") shall mean an individual or Legal Entity
+       exercising permissions granted by this License.
+ .
+       "Source" form shall mean the preferred form for making modifications,
+       including but not limited to software source code, documentation
+       source, and configuration files.
+ .
+       "Object" form shall mean any form resulting from mechanical
+       transformation or translation of a Source form, including but
+       not limited to compiled object code, generated documentation,
+       and conversions to other media types.
+ .
+       "Work" shall mean the work of authorship, whether in Source or
+       Object form, made available under the License, as indicated by a
+       copyright notice that is included in or attached to the work
+       (an example is provided in the Appendix below).
+ .
+       "Derivative Works" shall mean any work, whether in Source or Object
+       form, that is based on (or derived from) the Work and for which the
+       editorial revisions, annotations, elaborations, or other modifications
+       represent, as a whole, an original work of authorship. For the purposes
+       of this License, Derivative Works shall not include works that remain
+       separable from, or merely link (or bind by name) to the interfaces of,
+       the Work and Derivative Works thereof.
+ .
+       "Contribution" shall mean any work of authorship, including
+       the original version of the Work and any modifications or additions
+       to that Work or Derivative Works thereof, that is intentionally
+       submitted to Licensor for inclusion in the Work by the copyright owner
+       or by an individual or Legal Entity authorized to submit on behalf of
+       the copyright owner. For the purposes of this definition, "submitted"
+       means any form of electronic, verbal, or written communication sent
+       to the Licensor or its representatives, including but not limited to
+       communication on electronic mailing lists, source code control systems,
+       and issue tracking systems that are managed by, or on behalf of, the
+       Licensor for the purpose of discussing and improving the Work, but
+       excluding communication that is conspicuously marked or otherwise
+       designated in writing by the copyright owner as "Not a Contribution."
+ .
+       "Contributor" shall mean Licensor and any individual or Legal Entity
+       on behalf of whom a Contribution has been received by Licensor and
+       subsequently incorporated within the Work.
+ .
+    2. Grant of Copyright License. Subject to the terms and conditions of
+       this License, each Contributor hereby grants to You a perpetual,
+       worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+       copyright license to reproduce, prepare Derivative Works of,
+       publicly display, publicly perform, sublicense, and distribute the
+       Work and such Derivative Works in Source or Object form.
+ .
+    3. Grant of Patent License. Subject to the terms and conditions of
+       this License, each Contributor hereby grants to You a perpetual,
+       worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+       (except as stated in this section) patent license to make, have made,
+       use, offer to sell, sell, import, and otherwise transfer the Work,
+       where such license applies only to those patent claims licensable
+       by such Contributor that are necessarily infringed by their
+       Contribution(s) alone or by combination of their Contribution(s)
+       with the Work to which such Contribution(s) was submitted. If You
+       institute patent litigation against any entity (including a
+       cross-claim or counterclaim in a lawsuit) alleging that the Work
+       or a Contribution incorporated within the Work constitutes direct
+       or contributory patent infringement, then any patent licenses
+       granted to You under this License for that Work shall terminate
+       as of the date such litigation is filed.
+ .
+    4. Redistribution. You may reproduce and distribute copies of the
+       Work or Derivative Works thereof in any medium, with or without
+       modifications, and in Source or Object form, provided that You
+       meet the following conditions:
+ .
+       (a) You must give any other recipients of the Work or
+           Derivative Works a copy of this License; and
+ .
+       (b) You must cause any modified files to carry prominent notices
+           stating that You changed the files; and
+ .
+       (c) You must retain, in the Source form of any Derivative Works
+           that You distribute, all copyright, patent, trademark, and
+           attribution notices from the Source form of the Work,
+           excluding those notices that do not pertain to any part of
+           the Derivative Works; and
+ .
+       (d) If the Work includes a "NOTICE" text file as part of its
+           distribution, then any Derivative Works that You distribute must
+           include a readable copy of the attribution notices contained
+           within such NOTICE file, excluding those notices that do not
+           pertain to any part of the Derivative Works, in at least one
+           of the following places: within a NOTICE text file distributed
+           as part of the Derivative Works; within the Source form or
+           documentation, if provided along with the Derivative Works; or,
+           within a display generated by the Derivative Works, if and
+           wherever such third-party notices normally appear. The contents
+           of the NOTICE file are for informational purposes only and
+           do not modify the License. You may add Your own attribution
+           notices within Derivative Works that You distribute, alongside
+           or as an addendum to the NOTICE text from the Work, provided
+           that such additional attribution notices cannot be construed
+           as modifying the License.
+ .
+       You may add Your own copyright statement to Your modifications and
+       may provide additional or different license terms and conditions
+       for use, reproduction, or distribution of Your modifications, or
+       for any such Derivative Works as a whole, provided Your use,
+       reproduction, and distribution of the Work otherwise complies with
+       the conditions stated in this License.
+ .
+    5. Submission of Contributions. Unless You explicitly state otherwise,
+       any Contribution intentionally submitted for inclusion in the Work
+       by You to the Licensor shall be under the terms and conditions of
+       this License, without any additional terms or conditions.
+       Notwithstanding the above, nothing herein shall supersede or modify
+       the terms of any separate license agreement you may have executed
+       with Licensor regarding such Contributions.
+ .
+    6. Trademarks. This License does not grant permission to use the trade
+       names, trademarks, service marks, or product names of the Licensor,
+       except as required for reasonable and customary use in describing the
+       origin of the Work and reproducing the content of the NOTICE file.
+ .
+    7. Disclaimer of Warranty. Unless required by applicable law or
+       agreed to in writing, Licensor provides the Work (and each
+       Contributor provides its Contributions) on an "AS IS" BASIS,
+       WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+       implied, including, without limitation, any warranties or conditions
+       of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+       PARTICULAR PURPOSE. You are solely responsible for determining the
+       appropriateness of using or redistributing the Work and assume any
+       risks associated with Your exercise of permissions under this License.
+ .
+    8. Limitation of Liability. In no event and under no legal theory,
+       whether in tort (including negligence), contract, or otherwise,
+       unless required by applicable law (such as deliberate and grossly
+       negligent acts) or agreed to in writing, shall any Contributor be
+       liable to You for damages, including any direct, indirect, special,
+       incidental, or consequential damages of any character arising as a
+       result of this License or out of the use or inability to use the
+       Work (including but not limited to damages for loss of goodwill,
+       work stoppage, computer failure or malfunction, or any and all
+       other commercial damages or losses), even if such Contributor
+       has been advised of the possibility of such damages.
+ .
+    9. Accepting Warranty or Additional Liability. While redistributing
+       the Work or Derivative Works thereof, You may choose to offer,
+       and charge a fee for, acceptance of support, warranty, indemnity,
+       or other liability obligations and/or rights consistent with this
+       License. However, in accepting such obligations, You may act only
+       on Your own behalf and on Your sole responsibility, not on behalf
+       of any other Contributor, and only if You agree to indemnify,
+       defend, and hold each Contributor harmless for any liability
+       incurred by, or claims asserted against, such Contributor by reason
+       of your accepting any such warranty or additional liability.
+ .
+    END OF TERMS AND CONDITIONS
+ .
+    APPENDIX: How to apply the Apache License to your work.
+ .
+       To apply the Apache License to your work, attach the following
+       boilerplate notice, with the fields enclosed by brackets "{}"
+       replaced with your own identifying information. (Don't include
+       the brackets!)  The text should be enclosed in the appropriate
+       comment syntax for the file format. We also recommend that a
+       file or class name and description of purpose be included on the
+       same "printed page" as the copyright notice for easier
+       identification within third-party archives.
+ .
+    Copyright {yyyy} {name of copyright owner}
+ .
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+ .
+        http://www.apache.org/licenses/LICENSE-2.0
+ .
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.

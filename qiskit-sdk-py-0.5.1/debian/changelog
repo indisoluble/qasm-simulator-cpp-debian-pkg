@@ -1,0 +1,6 @@
+qiskit-sdk-py (0.5.1-1) UNRELEASED; urgency=low
+
+  * Initial release. Closes: #nnnn
+    <nnnn is the bug number of your ITP>
+
+ -- Enrique de la Torre <indisoluble_dev@me.com>  Sat, 19 May 2018 14:44:10 +0200
